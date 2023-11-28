@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingeniería de prompt.</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+        }
+        h1 {
+            color: goldenrod;
+        }
+        .content {
+            margin-top: 20px;
+        }
+</style>
+</head>
+<body>
+<p>Para llevar a cabo tus <b>prompts</b> debes seguir los siguientes pasos y te puedes apoyar de los tips mencionados.</p>
+    <h1>Pasos para elaborar prompts.</h1>
+    <ol>
+        <p><b>Paso No.1: </b>Delimitar el prompt entre comillas ("") o cualquier signo que lo separe de las instrucciones.</p>
+        <p><b>Paso No.2: </b>Pedir que el output esté lo más estructurado posible, para que este sea fácil de leer y de comprender.</p>
+        <p><b>Paso No.3: </b>Pedir al modelo si cumplen todas las condiciones. esto para saber si entendió lo solicitado y desglosó la respuesta correcta.</p>
+        <p><b>Paso No.4: </b>Ofrecer un ejemplo del resultado esperado.</p>
+        <p><b>Tip para el paso 4. </b>Al pedir esto, ayuda al modelo a entender qué es lo que esperas de la respuesta, ya que ha tareas que pueden tener múltiples respuestas o que dichas respuestas se puedes obtener en diferentes formatos.</p>
+    </ol>
+    <h1>Principios fundamentales.</h1>
+    <ol>
+        <p><b>Paso No.1: </b>Especificar los pasos para terminar una tarea</p>
+        <p><b>Paso No.2: </b>Pedirle al modelo que trabaje en su propia solución; es importante que el modelo desarrolle un procedimiento antes de darte una respuesta (en ámbito matemático o algo que involucre operaciones) para que de una respuesta acertada.</p>
+    </ol>
+    <h1>TIPS.</h1>
+    <p><i>Sigue estos tres tips para mejorar tus prompts...</i></p>
+        <p><i><b>Retroalimentación:</b></i> Es decir, evaluar los resultados y modificar el prompt para obtener los resultados.</p>
+        <p><i><b>Resumir:</b></i> Se puede resumir, compendiar y/o crear un extracto, cada uno dará un resultado diferente.</p>
+        <p><i><b>Inferencia:</b></i> Proceso en el que se utiliza la información disponible para llegar a una conclusión o deducción.</p> 
+    <h1>ChatGPT en un texto.</h1>
+    <p><i>ChatGPT puede inferir con estos 7 aspectos.</i></p>
+    <ol>
+        <p><b>Aspecto. 1:</b> El tema principal de un texto.</p>
+        <p><b>Aspecto. 2:</b> El tono del texto.</p>
+        <p><b>Aspecto. 3:</b> La opinión del autor.</p>
+        <p><b>Aspecto. 4:</b> El propósito del texto.</p>
+        <p><b>Aspecto. 5:</b> El público objetivo.</p>
+        <p><b>Aspecto. 6:</b> El contexto histórico social.</p>
+        <p><b>Aspecto. 7:</b> Consecuencias del argumento.</p>
+    </ol>
+    <h1>Prompts.</h1>
+    <ol>
+       <p><li><b>Realiza un resumen del siguiente texto </b>"Cuentan que hace mucho tiempo, vivió en un reino lejano un rey y una reina, que al nacimiento de su hija, decidieron mimarla y consentirla con todos los caprichos de este mundo. Como es de esperar, la pequeña princesa creció con el paso de los años y se convirtió en una niña malcriada que no daba las gracias ni pedía disculpas por nada. Tan egoísta y grosera era la niña, que los sirvientes del palacio debían hacer todo cuanto ella quisiera sin protestar. Los caprichos de la princesa iban desde pedir que le hornearan dulces en plena madrugada hasta obligar a los guardias a que le espantaran todas las aves que rondaban el palacio porque ella simplemente las odiaba. ¿Y su padre, el rey? El rey no hacía otra cosa que reírse de las malacrianzas de su querida hija, y aquel que no obedeciera, pues era encarcelado de inmediato para siempre. Sin embargo, un buen día, mientras la princesa dormía plácidamente en su alcoba, se apareció en la ventana un hada mágica disfrazada de lechuza. “No eres una niña buena y debes aprender el don de la cortesía. Te maldigo por el resto de tu vida hasta que sepas agradecer y respetar a todos los que te rodean”, y dicho aquello, el hada se marchó. A la mañana siguiente, la princesa despertó, y para su sorpresa, su pelo había crecido enormemente. Los rizos rubios de la pobre niña se extendían por toda la cama hasta el suelo, y desde el suelo hasta la puerta de la alcoba. Con los primeros gritos de espanto de la princesa, aparecieron en la habitación tres guardias reales, dos sirvientes y por supuesto, el rey y la reina. La niña no paraba de sollozar y lamentarse por aquella terrible maldición. “Alguien pagará esto”, gritaba el rey furioso, mientras la reina intentaba recoger los mechones gigantes de pelo que se regaban por todo el suelo. Durante aquel día, acudieron al palacio cientos de curanderos y hechiceros que intentaban por todos los medios deshacer el hechizo de la princesa.
+       Algunos preparaban brebajes secretos que la princesa tomaba con desespero, mientras otros recitaban conjuros mágicos en voz alta agitando los brazos. Desafortunadamente, nada pudo parar aquel encantamiento, y el pelo de la niña crecía y crecía hasta llegar a las afueras del palacio.
+       Por la noche, cansada de tanto llorar, la princesa quedó profundamente dormida, pero al despertar en la mañana su tristeza fue mucho mayor. Su pelo no sólo había inundado el castillo, sino que además se extendía por todas las casas del reino hasta llegar al bosque. El rey, enfadado, mandó a llamar a todos los guardias del palacio y a los campesinos de los alrededores.
+       Miles de hombres con tijeras, cuchillos y guadañas comenzaron a cortar el inmenso pelo de la niña. Sin embargo, a la llegada de la tarde, los hombres se encontraban extenuados de tanto cortar y cortar, y el pelo de la princesa seguía creciendo y creciendo sin parar al igual que su tristeza. La reina se encerraba en su alcoba a llorar en silencio, mientras el rey se paseaba por el palacio de arriba abajo intentando hallar una solución.
+       A las pocas semanas, los rizos de la princesa repletaban las calles del reino, llegaban al océano y se enredaban en la punta de las montañas. La niña no quería jugar ni hablar con nadie, pero una tarde, cuando le ofrecieron un pastel acabado de hornear, la princesa respondió con voz suave: “No, gracias”.
+       Todas las sirvientas de la habitación se quedaron sorprendidas de sus palabras, pues era la primera vez que la niña decía “gracias”. Tiempo después, uno de los guardias trató de entrar en la habitación y tropezó con el inmenso cabello, a lo que la niña exclamó: “Por favor, discúlpeme”.
+       Poco a poco, la princesa comenzaba a ser amable con todas las personas, desde los jardineros del palacio hasta las cocineras. Cada vez que pedía algo lo hacía amablemente y sin dejar de decir “por favor”, “gracias”, “discúlpeme”. Entonces, una buena noche, se apareció nuevamente el hada mágica que la había hechizado.
+       “Te has convertido en una niña amable y buena. Has aprendido finalmente la lección y ya no tendrás que sufrir tu castigo”, y así fue como el hada mágica le quitó el hechizo a la princesa. Al despertar con los primeros rayos del Sol, la niña descubrió que su pelo ya no desbordaba las ventanas del palacio ni llegaba hasta los confines del mundo.
+       Desde ese día, la princesa no volvió a ser grosera ni a insultar a las personas, y con el paso del tiempo, logró convertirse en una reina justa y atenta con todos los habitantes de su reino."</li></p>
+       <p><li><b>Realiza una lista de la saga de Harry Potter,</b> ordena por "fecha de estreno, título de la película y un breve resumen de cada película."</li></p>
+       <p><li><b>Resuelve la siguiente ecuación 5x + 5= 20</b>, primero realiza el procedimiento antes de darme una respuesta.</li></p>
+       <p><li><b>Del siguiente texto</b> "400gr garbanzos cocidos Cebolla 2 o 3 Ajos 3 champiñones 300ml de yogur o kéfir vegetal SIN AZÚCAR Queso vegano 2 cdas soperas de Harina de garbanzo 1/2 taza agua Pan rallado con ajo y perejil Aceite de oliva Curry en polvo Ajo en polvo Pimienta negra Sal. En una sartén salteamos los ajos, la cebolla y las setas con un chorrito de aceite de oliva. Todo picado finamente. Cuando esté listo, lo volcamos en un bol y añadimos los garbanzos cocidos con generoso curry (la cantidad de curry puede variar dependiendo de la intensidad y calidad de la especia). No tengas miedo de probar la mezcla si no sabes cuánto añadir. Seguimos añadiendo un toque de pimienta negra, ajo en polvo y sal al gusto. Añadimos otro chorrito de aceite de oliva a la masa y con un tenedor machacamos bien todo, hasta que quede una pasta densa. Ahora, en un bol a parte, colocamos generoso pan rallado con ajo y perejil. Y por otro lado, una mezcla de 2 cdas soperas de harina de garbanzo y 1/2 taza de agua. Batimos con un tenedor hasta conseguir una mezcla homogénea. Ahora, cogemos una porción de masa de los garbanzos y le damos forma de bola. La sumergimos en la mezcla de harina de garbanzo, empapamos bien y después rebozamos en pan rallado. Repetimos el proceso con toda la masa. Ahora, congelamos durante 10 minutos las croquetas para conseguir la densidad perfecta. Mientras tanto, mezclamos en una olla 300 gr de yogur vegetal sin azúcar o bien kéfir vegetal y el queso vegano. Usaremos más o menos unos 5 o 6 puñados de queso vegano rallado. Encendemos a fuego medio-bajo y sin dejar de remover, vamos fundiendo el queso hasta obtener una salsa cremosa. Apagamos y reservamos. Por último, freímos o salteamos las croquetas en una sartén con aceite.¡Y listo! Sirve las croquetas con la salsa de queso fundida. Croquetas de garbanzo al curry." "Realiza una lista con los ingredientes y pasos a seguir para hacer la receta, además de colocar un título. Todo esto a base de que el texto incluya todo lo pedido anteriormente, sino, menciona que no lo tiene."</li></p>
+       <p><li><b>Traduce a idioma francés el siguiente texto</b> "Vacaciones de Navidad en España. 
+         Las vacaciones de Navidad duran dos semanas y las fiestas más importantes son Nochebuena, Navidad, Nochevieja y Reyes. En las casas se pone el tradicional belén, una maqueta con figuras que representa el nacimiento de Jesús, y un gran árbol donde se colocan los regalos. El 24 de diciembre se celebra Nochebuena. Es tradición cantar villancicos y comer un menú especial con marisco, pavo o jamón. Los dulces típicos son el turrón, el mazapán y los polvorones. El 31 de diciembre es Nochevieja, la última noche del año, y se festeja comiendo doce uvas cuando el reloj marca las 12, una por cada campanada. Después, toda la gente se dice "feliz año" y brindan con cava. El 5 de enero los tres Reyes Magos, Melchor, Gaspar y Baltasar traen regalos para todos los niños de España, que dejan en sus zapatos mientras todos duermen. El 6 de enero es Reyes. Los niños juegan con sus regalos nuevos y es costumbre comer el roscón de Reyes, un bizcocho de nata o crema que guarda una sorpresa dentro."</li></p>
+    </ol>
+    <div>
+<h1>Muestra de los prompts con ChatGPT.</h1>
+<p><b><i>Prompt 1.</i></b></p>
+<img
+    src="Cap 1.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 2.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 3.png"
+    width="800"
+    height="550" />
+<p><b><i>Prompt 2.</i></b></p>
+<img
+    src="Cap 4.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 5.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 6.png"
+    width="800"
+    height="550" />
+<p><b><i>Prompt 3.</i></b></p>
+<img
+    src="Cap 7.png"
+    width="800"
+    height="550" />
+<p><b><i>Prompt 4.</i></b></p>
+<img
+    src="Cap 8.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 9.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 10.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 11.png"
+    width="800"
+    height="550" />
+<p><b><i>Prompt 5.</i></b></p>  
+<img
+    src="Cap 12.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 13.png"
+    width="800"
+    height="550" />
+</div>
+<div>
+    <h1>Muestra de los prompts con Bing Chat.</h1>
+    <p><b><i>Prompt 1.</i></b></p>
+    <img
+    src="Cap 14.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 15.png"
+    width="800"
+    height="550" />
+    <p><b><i>Prompt 2.</i></b></p>
+    <img
+    src="Cap 16.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 17.png"
+    width="800"
+    height="550" />
+    <p><b><i>Prompt 3.</i></b></p>
+    <img
+    src="Cap 18.png"
+    width="800"
+    height="550" />
+    <p><b><i>Prompt 4.</i></b></p>
+    <img
+    src="Cap 19.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 20.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 21.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 22.png"
+    width="800"
+    height="550" />
+    <p><b><i>Prompt 5.</i></b></p>
+    <img
+    src="Cap 23.jpeg"
+    width="500"
+    height="600" />
+    <hr>
+    <img
+    src="Cap 24.jpeg"
+    width="500"
+    height="600" />
+</div>
+<div>
+    <h1>Muestra de los prompts con Perplexity.</h1>
+    <p><b><i>Prompt 1.</i></b></p>
+    <img
+    src="Cap 25.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 26.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 27.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 28.png"
+    width="800"
+    height="550" />
+    <p><b><i>Prompt 2.</i></b></p>
+    <img
+    src="Cap 29.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 30.png"
+    width="800"
+    height="550" />
+    <p><b><i>Prompt 3.</i></b></p>
+    <img
+    src="Cap 31.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 32.png"
+    width="800"
+    height="550" />
+    <p><b><i>Prompt 4.</i></b></p>
+    <img
+    src="Cap 33.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 34.png"
+    width="800"
+    height="550" />
+    <p><b><i>Prompt 5.</i></b></p>
+    <img
+    src="Cap 35.png"
+    width="800"
+    height="550" />
+    <hr>
+    <img
+    src="Cap 36.png"
+    width="800"
+    height="550" />
+</div>
+<div>
+    <h1>Tabla comparativa de los tres modelos.</h1>
+    <p>Se muestra una tabla comparativa donde se verán la diferencia de los resultados de cada <b>prompt</b> utilizado anteriormente. </p>
+    <table class="default">
+        <tr>
+          <th scope="row">Modelos.</th>
+          <th>Prompt 1.</th>
+          <th>Prompt 2.</th>
+          <th>Prompt 3.</th>
+          <th>Prompt 4.</th>
+          <th>Prompt 5.</th>
+        </tr>
+        <tr>
+          <th>ChatGPT.</th>
+          <td>Sigue las indicaciones que le indicas y es rápido de responder, sólo debes ser muy específico con las indicaciones.</td>
+          <td>Siguó la indicación y la respuesta fue similiar a los dos modelos, pero más acercada a Bing Chat.</td>
+          <td>En cuestión de matemáticas, debes ser demasiado específico en este modelo y pedirle que realice un procedimiento antes de dar un resultado, ya que si no das las indicaciones adecuadas, falla. Aún así, la respuesta fue la misma que los otros dos modelos. </td>
+          <td>Entendió las indicaciones, además, desglosó los ingredientes y pasos a seguir similares a Bing Chat.</td>
+          <td>El modelo dio la traducción correcta sin ningún problema, tal cual como Perplexity.</td>
+        
+        </tr>
+        <tr>
+      
+          <th>Bing Chat.</th>
+      
+          <td>En este caso, las indicaciones eran demasiado extensas y este modelo tiene un límite de carácteres, por ello, a diferencia de los otros dos modelos no dio un resumen completo del texto.</td>
+          <td>La respuesta fue similar a la de ChatGPT, no hubo gran diferencia.</td>
+          <td>Obtuvo el mismo resultado de los otros dos modelos, sólo el procedimiento es diferente.</td>
+          <td>El modelo logró identificar lo que se le pedía, cambió un poco a comparación de los pasos a seguir que dio ChatGPT.</td>
+          <td>En este caso, no tradujo a francés el texto que se le otorgó. Pero si lo pedías en inglés, sí lo traducía.</td>
+      
+        </tr>
+      
+        <tr>
+      
+          <th>Perplexity.</th>
+          <td>Cumple su función, pero creo que su respuesta es más corta que los otros modelos y toma muy pocos aspectos relevantes del texto que se le otorga.</td>
+          <td>En este caso, la respuesta fue similar a los otros dos modelos, sólo que el resumen fue más corto.</td>
+          <td>El procedimiento para obtener el resultado es diferente a los otros dos modelos, pero llegó al mismo resultado. </td>
+          <td>Este modelo no identificó lo que las indicaciones le pedían, a comparación de los otros modelos. Su respuesta fue diferente.</td>
+          <td>El modelo realizó correctamente lo que las indicaciones le pidieron, igual que ChatGPT.</td>
+      
+        </tr>
+      
+      </table>
+</div>
+</body>
+</html>
